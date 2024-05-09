@@ -1,0 +1,7 @@
+# ninja log v5
+12	1180	7368082077217620	CMakeFiles/PolimorfismoZoo.dir/Perro.cpp.obj	f77dcc0629ba1e8d
+0	1186	7368082077227611	CMakeFiles/PolimorfismoZoo.dir/main.cpp.obj	e99ecb2d16e6c5fe
+6	1187	7368082077217620	CMakeFiles/PolimorfismoZoo.dir/Animal.cpp.obj	38dcf2eb20209a1
+1187	1546	7368082080786261	PolimorfismoZoo.exe	3d192215c94bef0d
+3	532	7368082721375443	CMakeFiles/PolimorfismoZoo.dir/main.cpp.obj	e99ecb2d16e6c5fe
+533	665	7368082722634154	PolimorfismoZoo.exe	3d192215c94bef0d
