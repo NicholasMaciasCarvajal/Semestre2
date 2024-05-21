@@ -1,0 +1,2 @@
+Hola, este es un archivo de texto.
+Espero que este ejemplo te sea útil.

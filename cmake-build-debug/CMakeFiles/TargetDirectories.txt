@@ -1,0 +1,3 @@
+C:/Users/catod/Desktop/Tareas de Progra/CodigosClion/2Semestre/FileIO/cmake-build-debug/CMakeFiles/FileIO.dir
+C:/Users/catod/Desktop/Tareas de Progra/CodigosClion/2Semestre/FileIO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/catod/Desktop/Tareas de Progra/CodigosClion/2Semestre/FileIO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
