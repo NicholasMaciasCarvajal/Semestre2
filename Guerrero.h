@@ -18,6 +18,8 @@ public:
     void quitaritem(const std::string& item) override;
     void mostraritem() override;
     void anadirObjeto(std::unique_ptr<Item> item) override;
+    void agregarAtaques(const Ataques& ataques) override;
+    void mostrarAtaques() override;
 
     std::string getTipodeArma() const;
     std::string getDefensaAumentada() const;

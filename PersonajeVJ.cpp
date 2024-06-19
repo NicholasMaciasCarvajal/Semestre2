@@ -49,7 +49,13 @@ void PersonajeVJ::setVida(float vida) {
 void PersonajeVJ::ataque(){
     std::cout << "Ataque" << std::endl;
 }
-/*
+
 void PersonajeVJ::agregarAtaques(const Ataques &ataques) {
-    ataques.push_back(ataques);
-}*/
+    listaDeAtaques.push_back(ataques);
+}
+
+void PersonajeVJ::mostrarAtaques() {
+    for (const auto& ataque : listaDeAtaques) {
+        std::cout << "Ataque: " << ataque.getNombrea() << std::endl;
+    }
+}

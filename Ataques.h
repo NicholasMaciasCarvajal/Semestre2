@@ -8,13 +8,18 @@
 class Ataques {
 public:
     Ataques();
-    Ataques(const std::string &nombrea);
+    Ataques(const std::string &nombrea): nombrea(nombrea){}
 
     virtual ~Ataques();
 
     virtual void usar();
 
+    std::string getNombrea() const;
+
+    void setNombrea(std::string nombrea);
+
     std::string nombrea;
+    std::string nnombrea;
 };
 
 

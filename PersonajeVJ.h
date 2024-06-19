@@ -25,7 +25,8 @@ public:
     void setVida(float vida);
     void setDefensa(float defensa);
 
-   // void agregarAtaques(const Ataques& ataques);
+    virtual void agregarAtaques(const Ataques& ataques);
+    virtual void mostrarAtaques();
 
     std::string nombre;
     int nivel;
@@ -36,7 +37,7 @@ public:
     float nvida;
     float ndefensa;
 
-   // std::vector<Ataques> ataques;
+    std::vector<Ataques> listaDeAtaques;
 };
 
 

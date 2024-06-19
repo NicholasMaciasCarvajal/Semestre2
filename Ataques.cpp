@@ -3,8 +3,12 @@
 Ataques::Ataques() {
 }
 
-Ataques::Ataques(const std::string &nombrea) {
-    this -> nombrea = nombrea;
+std::string Ataques::getNombrea() const {
+    return nombrea;
+}
+
+void Ataques::setNombrea(std::string nombrea) {
+    this -> nombrea = nnombrea;
 }
 
 Ataques::~Ataques() {

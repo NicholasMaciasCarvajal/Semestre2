@@ -26,7 +26,7 @@ void Guerrero::mostraritem() {
 void Guerrero::usar() {
 }
 void Guerrero::anadirObjeto(std::unique_ptr<Item> item) {
-    Inventario::anadirObjeto(std::unique_ptr<Item> item);
+    Inventario::anadirObjeto(std::move(item));
 }
 
 //-----------------------------------------------------------------
@@ -45,4 +45,13 @@ void Guerrero::setTipodeArma(std::string tipodeArma) {
 }
 void Guerrero::setDefensaAumentada(std::string DefensaAumentada) {
     this -> defensaAumentada = ndefensaAumentada;
+}
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+void Guerrero::agregarAtaques(const Ataques &ataques) {
+    PersonajeVJ::agregarAtaques(ataques);
+}
+void Guerrero::mostrarAtaques() {
+    PersonajeVJ::mostrarAtaques();
 }

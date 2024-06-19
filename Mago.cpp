@@ -27,7 +27,7 @@ void Mago::mostraritem() {
     Inventario::mostraritem();
 }
 void Mago::anadirObjeto(std::unique_ptr<Item> item) {
-    Inventario::anadirObjeto(std::unique_ptr<Item> item);
+    Inventario::anadirObjeto(std::move(item));
 }
 
 //-----------------------------------------------------------------
@@ -46,4 +46,13 @@ void Mago::setCantidadMana(std::string cantidadMana) {
 }
 void Mago::setTipoDeMagia(std::string tipoDeMagia) {
     this -> tipoDeMagia = ntipoDeMagia;
+}
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+void Mago::agregarAtaques(const Ataques &ataques) {
+    PersonajeVJ::agregarAtaques(ataques);
+}
+void Mago::mostrarAtaques() {
+    PersonajeVJ::mostrarAtaques();
 }
