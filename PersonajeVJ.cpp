@@ -14,11 +14,6 @@ PersonajeVJ::~PersonajeVJ() {
     std::cout << "Murio" << std::endl;
 }
 
-void PersonajeVJ::ataque(){
-
-    std::cout << "Ataque" << std::endl;
-}
-
 //---------------------------------------------------------
 
 std::string PersonajeVJ::getNombre() const {
@@ -48,3 +43,13 @@ void PersonajeVJ::setDefensa(float defensa) {
 void PersonajeVJ::setVida(float vida) {
     this -> vida = nvida;
 }
+
+//--------------------------------------------------------
+
+void PersonajeVJ::ataque(){
+    std::cout << "Ataque" << std::endl;
+}
+/*
+void PersonajeVJ::agregarAtaques(const Ataques &ataques) {
+    ataques.push_back(ataques);
+}*/

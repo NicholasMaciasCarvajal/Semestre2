@@ -4,12 +4,19 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <memory>
+#include <stdexcept>
+#include "Pocion.h"
+#include "Arma.h"
 
 class Inventario {
 private:
     std::vector<std::string> inventario;
+    std::vector<std::unique_ptr<Item>> objetos;
 
 public:
+    virtual void anadirObjeto(std::unique_ptr<Item> item);
+
     std::string itt;
 
     Inventario();

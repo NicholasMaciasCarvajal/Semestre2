@@ -3,8 +3,8 @@
 Enemigo::Enemigo() {
 }
 
-Enemigo::Enemigo(float dano, float nivel) {
-    this -> dano = dano;
+Enemigo::Enemigo(float vida, float nivel) {
+    this -> vida = vida;
     this -> nivel = nivel;
 }
 
@@ -21,8 +21,8 @@ void Enemigo::danorecibido() {
 float Enemigo::getNivel() {
     return nivel;
 }
-float Enemigo::getDano() {
-    return dano;
+float Enemigo::getVida() {
+    return vida;
 }
 
 //---------------------------------------------------------
@@ -31,6 +31,6 @@ void Enemigo::setNivel(float nivel) {
     this -> nivel = nnivel;
 }
 
-void Enemigo::setDano(float dano) {
-    this -> dano = ndano;
+void Enemigo::setVida(float vida) {
+    this -> vida = nvida;
 }

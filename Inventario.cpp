@@ -36,3 +36,9 @@ std::string Inventario::getItt() const {
 void Inventario::setItt(std::string itt) {
     this -> itt = itt;
 }
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+void Inventario::anadirObjeto(std::unique_ptr<Item> item) {
+    objetos.push_back(std::move(item));
+}

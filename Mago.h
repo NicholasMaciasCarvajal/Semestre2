@@ -3,9 +3,9 @@
 
 #include "PersonajeVJ.h"
 #include "Inventario.h"
-#include <set>
+#include "BolaDeFuego.h"
 
-class Mago:public PersonajeVJ,public Inventario {
+class Mago:public PersonajeVJ,public Inventario , public BolaDeFuego{
 public:
     Mago();
     Mago(const std::string &cantidadMana, const std::string &tipoDeMagia);
@@ -13,9 +13,11 @@ public:
     ~Mago();
 
     void ataque() override;
+    void usar() override;
     void agregaritem(const std::string& item) override;
     void quitaritem(const std::string& item) override;
     void mostraritem() override;
+    void anadirObjeto(std::unique_ptr<Item> item) override;
 
     std::string getCantidadMana() const;
     std::string getTipoDeMagia() const;

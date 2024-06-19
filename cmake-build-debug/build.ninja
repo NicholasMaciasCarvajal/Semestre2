@@ -105,6 +105,62 @@ build CMakeFiles\POO.dir\Inventario.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C
   TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
   TARGET_PDB = POO.pdb
 
+build CMakeFiles\POO.dir\Ataques.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\Ataques.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\BolaDeFuego.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\BolaDeFuego.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\Curar.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\Curar.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\ConfiguracionJuego.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\ConfiguracionJuego.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\Corte.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\Corte.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\Item.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\Item.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\Pocion.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\Pocion.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
+build CMakeFiles\POO.dir\Arma.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C$:\Users\catod\Desktop\Tareas$ de$ Progra\CodigosClion\2Semestre\POO\Arma.cpp || cmake_object_order_depends_target_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\POO.dir\
+  TARGET_PDB = POO.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target POO
@@ -113,7 +169,7 @@ build CMakeFiles\POO.dir\Inventario.cpp.obj: CXX_COMPILER__POO_unscanned_Debug C
 #############################################
 # Link the executable POO.exe
 
-build POO.exe: CXX_EXECUTABLE_LINKER__POO_Debug CMakeFiles\POO.dir\main.cpp.obj CMakeFiles\POO.dir\PersonajeVJ.cpp.obj CMakeFiles\POO.dir\Mago.cpp.obj CMakeFiles\POO.dir\Guerrero.cpp.obj CMakeFiles\POO.dir\Enemigo.cpp.obj CMakeFiles\POO.dir\Duende.cpp.obj CMakeFiles\POO.dir\Orco.cpp.obj CMakeFiles\POO.dir\Inventario.cpp.obj
+build POO.exe: CXX_EXECUTABLE_LINKER__POO_Debug CMakeFiles\POO.dir\main.cpp.obj CMakeFiles\POO.dir\PersonajeVJ.cpp.obj CMakeFiles\POO.dir\Mago.cpp.obj CMakeFiles\POO.dir\Guerrero.cpp.obj CMakeFiles\POO.dir\Enemigo.cpp.obj CMakeFiles\POO.dir\Duende.cpp.obj CMakeFiles\POO.dir\Orco.cpp.obj CMakeFiles\POO.dir\Inventario.cpp.obj CMakeFiles\POO.dir\Ataques.cpp.obj CMakeFiles\POO.dir\BolaDeFuego.cpp.obj CMakeFiles\POO.dir\Curar.cpp.obj CMakeFiles\POO.dir\ConfiguracionJuego.cpp.obj CMakeFiles\POO.dir\Corte.cpp.obj CMakeFiles\POO.dir\Item.cpp.obj CMakeFiles\POO.dir\Pocion.cpp.obj CMakeFiles\POO.dir\Arma.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

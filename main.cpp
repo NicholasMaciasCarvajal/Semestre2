@@ -1,14 +1,15 @@
 #include <iostream>
 #include <string>
-//#include "Inventario.h"
 #include "Mago.h"
 #include "Guerrero.h"
+#include "Orco.h"
+#include "Inventario.h"
 
 int main() {
-    Mago A;
-    A.agregaritem("Comida");
-    A.quitaritem("aña");
-    A.quitaritem("Comida");
-    A.mostraritem();
+    Guerrero B;
+    B.agregaritem("Comida");
+    B.mostraritem();
+    B.ataque();
+    std::unique_ptr<Item> Arco = std::make_unique<Arma>("Legendario","A distancia");
+    B.anadirObjeto(std::move(Arco));
 }
-

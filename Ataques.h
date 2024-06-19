@@ -8,22 +8,13 @@
 class Ataques {
 public:
     Ataques();
-    Ataques(const std::string& nombre, float dano);
+    Ataques(const std::string &nombrea);
 
     virtual ~Ataques();
 
-    virtual void formadeataque();
+    virtual void usar();
 
-    std::string getNombre() const;
-    float getDano();
-
-    void setNombre(std::string nombre);
-    void setDano(float dano);
-
-    std::string nombre;
-    float dano;
-    std::string nnombre;
-    float ndano;
+    std::string nombrea;
 };
 
 

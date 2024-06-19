@@ -14,15 +14,15 @@ public:
     virtual void danorecibido();
 
     float getNivel();
-    float getDano();
+    float getVida();
 
     void setNivel(float nivel);
-    void setDano(float dano);
+    void setVida(float vida);
 
     float nivel;
-    float dano;
+    float vida;
     float nnivel;
-    float ndano;
+    float nvida;
 };
 
 

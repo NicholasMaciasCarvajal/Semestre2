@@ -1,10 +1,12 @@
 #ifndef POO_PERSONAJEVJ_H
 #define POO_PERSONAJEVJ_H
 
+#include <vector>
 #include <string>
 #include <iostream>
+#include "Ataques.h"
 
-class PersonajeVJ {
+class PersonajeVJ : public Ataques{
 public:
     PersonajeVJ();
     PersonajeVJ(const std::string &nombre, int nivel, float vida, float defensa);
@@ -23,6 +25,8 @@ public:
     void setVida(float vida);
     void setDefensa(float defensa);
 
+   // void agregarAtaques(const Ataques& ataques);
+
     std::string nombre;
     int nivel;
     float vida;
@@ -31,6 +35,8 @@ public:
     int nnivel;
     float nvida;
     float ndefensa;
+
+   // std::vector<Ataques> ataques;
 };
 
 

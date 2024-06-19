@@ -1,4 +1,6 @@
 #include "Guerrero.h"
+Guerrero::Guerrero() {
+}
 
 Guerrero::Guerrero(const std::string &tipodeArma, const std::string &defensaAumentada) : PersonajeVJ() {
     this -> tipodeArma = tipodeArma;
@@ -10,18 +12,21 @@ Guerrero::~Guerrero() {
 }
 
 void Guerrero::ataque() {
-
-    std::cout << "Slash" << std::endl;
+    Corte::usar();
 }
 void Guerrero::agregaritem(const std::string &item) {
-    std::cout << "El mago recogio " << item << std::endl;
-    setItt(itt);
+    Inventario::agregaritem(item);
 }
 void Guerrero::quitaritem(const std::string &item) {
-    std::cout << "El mago tiro " << item << std::endl;
+    Inventario::quitaritem(item);
 }
 void Guerrero::mostraritem() {
     Inventario::mostraritem();
+}
+void Guerrero::usar() {
+}
+void Guerrero::anadirObjeto(std::unique_ptr<Item> item) {
+    Inventario::anadirObjeto(std::unique_ptr<Item> item);
 }
 
 //-----------------------------------------------------------------

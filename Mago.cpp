@@ -10,20 +10,24 @@ Mago::Mago(const std::string &cantidadMana, const std::string &tipoDeMagia) : Pe
 Mago::~Mago() {
     std::cout << "MurioA" << std::endl;
 }
+void Mago::usar() {
+
+}
 
 void Mago::ataque() {
-
-    std::cout << "Fireball" << std::endl;
+    BolaDeFuego::usar();
 }
 void Mago::agregaritem(const std::string &item) {
-    std::cout << "El mago recogio " << item << std::endl;
-    setItt(itt);
+    Inventario::agregaritem(item);
 }
 void Mago::quitaritem(const std::string &item) {
-    std::cout << "El mago tiro " << item << std::endl;
+    Inventario::quitaritem(item);
 }
 void Mago::mostraritem() {
     Inventario::mostraritem();
+}
+void Mago::anadirObjeto(std::unique_ptr<Item> item) {
+    Inventario::anadirObjeto(std::unique_ptr<Item> item);
 }
 
 //-----------------------------------------------------------------
