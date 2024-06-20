@@ -1,0 +1,14 @@
+# ninja log v5
+27	1070	7406029745735649	CMakeFiles/ProyectoPar3.dir/Habilidad.cpp.obj	b6f419d76438abf7
+5	1083	7406029745735649	CMakeFiles/ProyectoPar3.dir/Entidad.cpp.obj	857e850cea40e8a3
+20	1088	7406029745735649	CMakeFiles/ProyectoPar3.dir/Personaje.cpp.obj	4ae0932be9aeeb7e
+10	1094	7406029745735649	CMakeFiles/ProyectoPar3.dir/BoladeFuego.cpp.obj	a00c7daf24952e73
+15	1100	7406029745745623	CMakeFiles/ProyectoPar3.dir/Enemigo.cpp.obj	4820c2316927f994
+1095	1766	7406029752748382	CMakeFiles/ProyectoPar3.dir/Curar.cpp.obj	cb6623c11155ac1d
+1078	1787	7406029752948177	CMakeFiles/ProyectoPar3.dir/Item.cpp.obj	f9ba81de913423ea
+1083	2389	7406029758962211	CMakeFiles/ProyectoPar3.dir/Inventario.cpp.obj	cbd63caee16617fb
+9	808	7406030113949479	CMakeFiles/ProyectoPar3.dir/Jugador.cpp.obj	847a3717477cf7fb
+13	832	7406030362996802	CMakeFiles/ProyectoPar3.dir/Jugador.cpp.obj	847a3717477cf7fb
+9	1202	7406030366682981	CMakeFiles/ProyectoPar3.dir/Inventario.cpp.obj	cbd63caee16617fb
+4	723	7406030736523317	CMakeFiles/ProyectoPar3.dir/main.cpp.obj	fc6de6b1bba87f7e
+723	1130	7406030740516438	ProyectoPar3.exe	90ca6555da383680
