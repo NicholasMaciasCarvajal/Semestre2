@@ -10,7 +10,7 @@
 
 class Inventario {
 private:
-    std::vector<std::string> inventario;
+    std::vector<Item> inventario;
     Item item1;
     std::vector<std::unique_ptr<Item>> objetos;
 
@@ -23,9 +23,10 @@ public:
 
     virtual ~Inventario();
 
-    virtual void agregarItem(const std::string& item);
-    virtual void quitarItem(const std::string& item);
-    virtual void mostrarItem();
+    void usarItem(const std::string item);
+    virtual void agregarItem(const Item& item);
+    virtual void eliminarItem(const Item& item);
+    virtual void mostrarItems();
 
     std::string getItt() const;
     void setItt(std::string itt);

@@ -6,7 +6,7 @@
 class Enemigo : public Entidad{
 public:
     Enemigo();
-    Enemigo(int dano, int armadura);
+    Enemigo(const std::string &nombre, int salud, int dano, int armadura);
     ~Enemigo();
 
     void mostrarInformacion() override;

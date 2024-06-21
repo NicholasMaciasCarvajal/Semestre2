@@ -9,7 +9,7 @@ public:
     Curar(int sres);
     ~Curar();
 
-    void usar() override;
+    void usarHabilidad(const std::string aHabilidad) override;
 
     int getSres();
 

@@ -9,11 +9,16 @@
 class Jugador : public BoladeFuego, public Curar, public Personaje, public Inventario{
 public:
     Jugador();
+    Jugador(const std::string &nombre, int salud,int dano, int mana);
+    ~Jugador();
 
+    void usarItem(const std::string item);
+    void agregarHabilidad(const std::string aHabilidad) override;
+    void usarHabilidad(const std::string aHabilidad) override;
     void mostrarInformacion() override;
-    void agregarItem(const std::string& item) override;
-    void quitarItem(const std::string& item) override;
-    void mostrarItem();
+    void agregarItem(const Item& item) override;
+    void eliminarItem(const Item& item) override;
+    void mostrarItems() override;
 };
 
 

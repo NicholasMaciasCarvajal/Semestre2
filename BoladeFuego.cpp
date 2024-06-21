@@ -3,13 +3,14 @@
 BoladeFuego::BoladeFuego() {
     this -> dano = 0;
 }
-BoladeFuego::BoladeFuego(int dano) {
+BoladeFuego::BoladeFuego(int costo, int dano) {
+    this -> costo = costo;
     this -> dano = dano;
 }
 BoladeFuego::~BoladeFuego() noexcept {
 }
 
-void BoladeFuego::usar() {
+void BoladeFuego::usarHabilidad(const std::string aHabilidad) {
 }
 
 //__________________________________________________//

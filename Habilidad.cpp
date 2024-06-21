@@ -9,7 +9,9 @@ Habilidad::Habilidad(int costo) {
 Habilidad::~Habilidad() {
 }
 
-void Habilidad::usar() {
+void Habilidad::usarHabilidad(const std::string aHabilidad) {
+}
+void Habilidad::agregarHabilidad(const std::string aHabilidad) {
 }
 
 //__________________________________________________//

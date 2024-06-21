@@ -9,7 +9,7 @@ Curar::Curar(int sres) {
 Curar::~Curar() noexcept {
 }
 
-void Curar::usar() {
+void Curar::usarHabilidad(const std::string aHabilidad) {
 }
 
 //__________________________________________________//

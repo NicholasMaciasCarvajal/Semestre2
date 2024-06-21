@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <string>
-#include <vector>
 
 class Item {
 public:
@@ -11,7 +10,7 @@ public:
     Item(const std::string &nombre, const std::string &tipo);
     ~Item();
 
-    virtual void usar();
+    virtual void usarItem();
 
     std::string getNombre() const;
     std::string getTipo() const;
@@ -19,12 +18,12 @@ public:
     void setNombre(std::string nombre);
     void setTipo(std::string tipo);
 
+    bool operator==(const Item& other) const;
+    friend std::ostream& operator<<(std::ostream& os, const Item& item);
+
 private:
     std::string nombre;
     std::string tipo;
-    std::string nnombre;
-    std::string ntipo;
 };
-
 
 #endif //PROYECTOPAR3_ITEM_H

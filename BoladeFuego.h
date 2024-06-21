@@ -6,10 +6,10 @@
 class BoladeFuego : public Habilidad{
 public:
     BoladeFuego();
-    BoladeFuego(int dano);
+    BoladeFuego(int costo, int dano);
     ~BoladeFuego();
 
-    void usar() override;
+    void usarHabilidad(const std::string aHabilidad) override;
 
     int getDano();
 

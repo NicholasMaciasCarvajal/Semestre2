@@ -5,7 +5,9 @@ Enemigo::Enemigo() : Entidad(){
     this -> armadura = 0;
 }
 
-Enemigo::Enemigo(int dano, int armadura) {
+Enemigo::Enemigo(const std::string &nombre, int salud, int dano, int armadura) : Entidad(){
+    this -> nombre = nombre;
+    this -> salud = salud;
     this -> dano = dano;
     this -> armadura = armadura;
 }
